@@ -4,7 +4,6 @@ const updateScoreUrl = `${baseUrl}games/${gameId}/scores/`;
 const scoreBoardContainer = document.querySelector('.board-container');
 
 const displayScore = (results) => {
-  
   results.forEach((player) => {
     scoreBoardContainer.innerHTML += `<li class="list-group-item">${player.user}: ${player.score}</li>`;
   });
