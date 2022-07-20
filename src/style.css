@@ -1,3 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
+.board-container > li:nth-child(even) {
+  background-color: lightgray;
+}
