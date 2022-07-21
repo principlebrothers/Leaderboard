@@ -1,56 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Leaderboard
 
-> Description the project.
+> Description the project: This project displays the winners and their scores. The emphasis is on using API to store the details of the score board
 
 
 ## Built With
 
 - Major languages
+  - [x] Html
+  - [x] CSS
+  - [x] JavaScript
 - Frameworks
+  - [x] Bootstrap
 - Technologies used
+  - [x] Webpack
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Kindly follow the steps below to install and access the code on your pc.
+
+- Clone this repository or download the Zip folder:
+
+  - For HTTPS: **``https://github.com/principlebrothers/To-do-list.git``**
+  - For SSH: **``git@github.com:principlebrothers/To-do-list.git``**
+  - For GITHUB CLI: **``gh repo clone principlebrothers/To-do-list``**
+
+- Navigate to the location of the folder in your machine you want clone the repository to:
+
+  Example: **``you@your-Pc-name:~$ cd <folder>``**
+
+- User GitHub functionality: **``you@your-Pc-name:~$ git clone <link>``**.
+
+- Run ``npm install`` to install all the dependencies
+
+- Run ``npm start`` to lunch the development server
 
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Ernest Anyewe Adonu**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@principlebrothers](https://github.com/principlebrothers)
+- Twitter: [@adonu_ernest](https://twitter.com/adonu_ernest)
+- LinkedIn: [Ernest Anyewe Adonu](www.linkedin.com/in/ernest-adonu-7b61951b0)
 
 ## 🤝 Contributing
 
