@@ -1,7 +1,28 @@
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #000;
 }
 
 .board-container > li:nth-child(even) {
   background-color: lightgray;
+}
+
+.btn {
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+  border: 2px solid #fff;
+}
+
+.btn:active {
+  background-color: #0cbdc4;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
 }
