@@ -15,4 +15,5 @@ const updateScore = async (player, score) => {
   }).then((response) => response.json());
 };
 
+
 export default updateScore;
