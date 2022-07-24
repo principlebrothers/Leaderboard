@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://principlebrothers.github.io/Leaderboard/)
 
 
 ## Getting Started
