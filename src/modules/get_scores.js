@@ -1,10 +1,8 @@
-const baseUrl =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/";
-const gameId = "yq8bW35oxhEU8iYMXlzp";
-const updateScoreUrl = `${baseUrl}games/${gameId}/scores/`;
+import updateScoreUrl from "./api_url";
+
 const scoreBoardContainer = document.querySelector(".board-container");
 
-export const displayScore = async () => {
+const displayScore = async () => {
   const results = await getScores();
 
   results.forEach((player) => {
@@ -21,4 +19,6 @@ const getScores = async () => {
   return sortScores;
 };
 
-export default getScores;
+export{
+  displayScore, scoreBoardContainer
+};

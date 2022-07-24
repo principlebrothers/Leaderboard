@@ -1,6 +1,4 @@
-const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const gameId = 'yq8bW35oxhEU8iYMXlzp';
-const updateScoreUrl = `${baseUrl}games/${gameId}/scores/`;
+import updateScoreUrl from "./api_url";
 
 const updateScore = async (player, score) => {
   await fetch(updateScoreUrl, {
