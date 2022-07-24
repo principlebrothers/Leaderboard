@@ -30,7 +30,10 @@
   </head>
   <body class="bg-success">
     <div class="container">
-      <h1 class="my-4 text-white">LEADERBOARD</h1>
+      <div class="card bg-dark text-white mb-3">
+        <h1 class="card-header">MAVIS BEACON TYPING TEST LEADERBOARD</h1>
+      </div>
+
       <div class="row">
         <div class="col">
           <div class="d-flex justify-content-between w-3">
@@ -60,10 +63,21 @@
               placeholder="Your score"
               required
             />
-            <button type="submit" class="float-end btn btn-dark">Submit</button>
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
           </form>
+          <p class="text-white mt-2"><strong>NOTE:</strong> Click the <u>Refresh</u> to update the score board after submitting</p>
         </div>
       </div>
     </div>
+    <footer class="bg-dark text-center text-lg-start text-white container fixed-bottom zindex-fixed:1030;">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://github.com/principlebrothers/Leaderboard/tree/development">principlebrothers</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
 </html>
